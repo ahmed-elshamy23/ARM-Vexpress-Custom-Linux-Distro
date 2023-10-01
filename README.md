@@ -20,3 +20,5 @@ This repository contains a custom linux distro for ARM Versatile Express (vexpre
 * **u-boot**: used to generate a bootloader for the board.
 * **arm-linux-gnueabi- toolchain**: for cross compilation.
 * **QEMU**: used to simulate ARM vexpress board.
+  
+> **Note**: detailed configuration can be viewed by cloniing the source code of u-boot and buildroot, copying ".config" file into their path and running the command "make menuconfig".
