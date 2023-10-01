@@ -1,10 +1,10 @@
 # ARM-Vexpress-Custom-Linux-Distro
 ### Overview:
-This repository contains a custom linux distro for ARM Versatile Express (vexpress) board based on Cortex-A9.
+This repository contains a custom linux distro for ARM Versatile Express (vexpress) board based on ARM Cortex-A9 processor.
 
 ### Prerequisite Packages:
-* tar: to extract root filesystem archive.
-* QEMU: for simulation.
+* **tar**: to extract root filesystem archive.
+* **QEMU**: for simulation.
 
 ### Quick Start:
 1. Clone this repository to your machine.
