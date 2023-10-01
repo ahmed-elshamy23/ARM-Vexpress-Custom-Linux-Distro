@@ -3,6 +3,7 @@
 This repository contains a custom linux distro for ARM Versatile Express (vexpress) board based on ARM Cortex-A9 processor.
 
 ### Prerequisite Packages:
+* **Linux Distro at host machine**: for executing the simulation bash scripts (a virtual machine is also allowed).
 * **tar**: to extract root filesystem archive.
 * **QEMU**: for simulation.
 
