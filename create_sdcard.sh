@@ -7,7 +7,7 @@ rm -rf sdcard.img boot root
 sudo dd if=/dev/zero of=sdcard.img bs=1M count=32
 sudo chmod 777 sdcard.img
 
-# Create 1 partition 
+# Create 2 partitions 
 printf "n\n\n\n\n+7M\nw\n" | sudo fdisk sdcard.img
 printf "n\n\n\n\n+22M\nw\n" | sudo fdisk sdcard.img
 
