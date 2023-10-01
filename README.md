@@ -11,7 +11,8 @@ This repository contains a custom linux distro for ARM Versatile Express (vexpre
 2. Execute "create_sdcard.sh" bash script to create a dummy SD card, create two partitions for boot and rootfs, mount the SD card and copy necessary files into it.
 3. Execute "run.sh" bash script to start simulation with QEMU.
 4. Wait for autoboot process to complete and enter the following credentials:
-> "buildroot login: **root**", "password: **1234**".
+> buildroot login: **root**
+> password: **1234**
 
 ### Used Tools:
 * **Buildroot**: used to generate linux kernel image, device tree blob (DTB) and root filesystem.
